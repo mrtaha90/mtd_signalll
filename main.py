@@ -7,14 +7,14 @@ import requests
 
 # ----------------------------------------------------
 # 🔑 Binance API Anahtarları
-api_key = "YUfOMgF4oTbUJhnd1CPA1jDzgI0mT5zQmy2TYbpitgAspeR0gBRGzPGHqnpnBq54"
-api_secret = "MIN7Azs3LrOezkC2XBc57a3fEqLH6zcJweIXg4dD6JX35rWEMerosJdedYgpguPL"
+api_key = ""
+api_secret = ""
 client = Client(api_key, api_secret)
 
 # ----------------------------------------------------
 # 💬 Telegram Ayarları
-TELEGRAM_TOKEN = '7612629548:AAHf_4FvXMb6g9ARRj0PIMJzIvYqLfFMPYI'
-CHAT_ID = '5283753258'
+TELEGRAM_TOKEN = ''
+CHAT_ID = ''
 
 def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
